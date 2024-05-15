@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Heart</title>
     <style>
-        body{
-            margin: 0;
+        body {
+            margin: 0 auto;
             padding: 0;
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
+            max-width: 600px;
+
         }
-        img{
-            width: 70px;
+
+        img {
+            width: 120px;
             transition: all 1s;
             -webkit-animation: pump .8s linear infinite;
             -moz-animation: pump .8s linear infinite;
@@ -22,38 +26,66 @@
             animation: pump .8s linear infinite;
             position: relative;
         }
+
         @-webkit-keyframes pump {
-            10% {width: 90px;}
-            30% {width: 70px;}
+            10% {
+                width: 90px;
+            }
+
+            30% {
+                width: 70px;
+            }
         }
+
         @-o-keyframes pump {
-            10% {width: 90px;}
-            30% {width: 70px;}
+            10% {
+                width: 90px;
+            }
+
+            30% {
+                width: 70px;
+            }
         }
+
         @-moz-keyframes pump {
-            10% {width: 90px;}
-            30% {width: 70px;}
+            10% {
+                width: 90px;
+            }
+
+            30% {
+                width: 70px;
+            }
         }
+
         @keyframes pump {
-            10% {width: 90px;}
-            30% {width: 70px;}
+            10% {
+                width: 90px;
+            }
+
+            30% {
+                width: 70px;
+            }
         }
-        .btn{
+
+        .btn {
             text-decoration: none;
             position: absolute;
             color: #2cf60d;
         }
-        h1{
+
+        h1 {
             position: absolute;
-            bottom: 400px;
+            top: 167px;
             color: aqua;
-            font-size: 30px;
+            font-size: 65px;
         }
     </style>
 </head>
+
 <body>
     <h1>My Heart</h1>
     <img src="images/968px-Love_Heart_SVG.svg.png" alt="Love_Heart_SVG">
-    <a  class="btn" href="index.html">Back</a>
+    <a class="btn" href="index.html">Back</a>
 </body>
+
 </html>
